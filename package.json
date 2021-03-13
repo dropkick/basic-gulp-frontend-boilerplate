@@ -1,0 +1,34 @@
+{
+  "name": "frontend-boilerplate",
+  "version": "1.1.0",
+  "description": "Basic Gulp 4 front-end boilerplate",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropkick/basic-gulp-frontend-boilerplate"
+  },
+  "keywords": [
+    "gulp",
+    "boilerplate",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "@dropkick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dropkick/basic-gulp-frontend-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dropkick/basic-gulp-frontend-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  }
+}

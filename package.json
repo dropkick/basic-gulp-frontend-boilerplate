@@ -1,7 +1,7 @@
 {
-  "name": "frontend-boilerplate",
-  "version": "1.1.0",
+  "name": "basic-gulp-frontend-boilerplate",
   "description": "Basic Gulp 4 front-end boilerplate",
+  "version": "1.1.0",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
@@ -12,23 +12,25 @@
     "boilerplate",
     "html",
     "css",
-    "javascript"
+    "javascript",
+    "browser-sync"
   ],
   "author": "@dropkick",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dropkick/basic-gulp-frontend-boilerplate/issues"
   },
-  "homepage": "https://github.com/dropkick/basic-gulp-frontend-boilerplate#readme",
   "devDependencies": {
-    "autoprefixer": "^9.7.0",
-    "cssnano": "^4.1.10",
+    "beeper": "^2.1.0",
+    "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-postcss": "^8.0.0",
-    "gulp-replace": "^1.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.6.4"
   }
 }

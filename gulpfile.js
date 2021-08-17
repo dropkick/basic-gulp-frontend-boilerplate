@@ -135,11 +135,11 @@ function watchTask(){
 // Export the default Gulp task so it can be run
 // Runs the scss and js tasks simultaneously
 // then runs cacheBust, then watch task
-exports.default = series(
-    parallel(scssTask, jsTask), 
-    cacheBustTask,
-    watchTask
-);
+// exports.default = series(
+//     parallel(scssTask, jsTask), 
+//     cacheBustTask,
+//     watchTask
+// );
 
 
 // Export commands.
